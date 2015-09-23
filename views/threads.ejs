@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <% include partials/template/head.ejs %>
+        <title>ParentCommunicator</title>
+    </head>
+    
+    
+    <body>        
+    <% include partials/template/header.ejs %>
+
+    <div class="content container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-lg-8">
+                <section>
+                    <h1>Threads </h1>
+                        <div class="table-responsive">
+                            <table class="table">
+
+                                  <thead>
+                                    <tr>
+                                        <th data-field="id" data-align="right" data-sortable="true">Student</th>
+                                        <th data-field="id" data-align="right" data-sortable="true">From</th>
+                                        <th data-field="name" data-align="center" data-sortable="true">Subject</th>
+                                        <th data-field="price" data-sortable="true">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="">
+                                        <td>Evangeline Belo</td>
+                                        <td>Kelly Belo</td>
+                                        <td>Recomendation for french reader.</td>
+                                        <td><time datetime="2015-09-30" >Sept 30, 2015</time></td>
+                                    </tr>
+                                    <tr class="">
+                                       <td>Erica Cardamore</td>
+                                        <td>Dan Cardamore</td>
+                                        <td>Volunteer day</td>
+                                        <td><time datetime="2015-10-03" >Oct 3, 2015</time></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td>Evangeline Belo</td>
+                                        <td>Andrew Belo</td>
+                                        <td>Missing mitt.</td>
+                                        <td><time datetime="2015-09-30" >Sept 30, 2015</time></td>
+                                    </tr>
+                                    <tr class="">
+                                       <td>Erica Cardamore</td>
+                                        <td>Dan Cardamore</td>
+                                        <td>Volunteer day</td>
+                                        <td><time datetime="2015-10-03" >Oct 3, 2015</time></td>
+                                    </tr>
+                                    <tr class="">
+                                        <td>Liliana Belo</td>
+                                        <td>Kelly Belo</td>
+                                        <td>Recomendation for french reader.</td>
+                                        <td><time datetime="2015-09-30" >Sept 30, 2015</time></td>
+                                    </tr>
+                                    <tr class="">
+                                       <td>Isla Corkum</td>
+                                        <td>Fred Corkum</td>
+                                        <td>Volunteer day</td>
+                                        <td><time datetime="2015-10-03" >Oct 3, 2015</time></td>
+                                    </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </section>
+
+            </div>
+           <div class="col-md-2 col-lg-4">
+                <% include partials/content/studentstatus.ejs %>
+            </div><!-- div column right -->
+        </div><!-- div row-->
+    </div><!-- div container-->
+
+        <% include partials/template/footer.ejs %>
+        <% include partials/template/jsdefault.ejs %>
+    </body>
+
+
+</html>

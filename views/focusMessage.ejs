@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <% include partials/template/head.ejs %>           
+    </head>
+    
+    
+    <body>        
+        <% include partials/template/header.ejs %>
+    
+    <div  class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-lg-8">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+
+                    <div class="message-subject">
+                        <h3>From: Andrew Belo father of Evangeline Belo</h3> <span class="pull-right"><button  type="button" data-toggle="tooltip" data-placement="top" title="Star"  class="btn btn-default fa fa-star-o"></button><button  type="button" data-toggle="tooltip" data-placement="top" title="Archive" class="btn btn-default fa fa-archive"></button>  </span>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">  
+                    <div class="col-xs-12 col-md-6 col-md-push-6  col-lg-6 col-lg-push-6">
+                        <div class="message-teacher"><img class="profile-avatar" src="/public/images/profileParent.jpg"></img>Hello Tori, I was wondering if you may have found Evangeline's mitten in the class room.   She didn't have it in her backpack this evening when I picked her up. 
+                        <p><time class="message-time" datetime="2015-09-30-20:00" >Sept 30, 2015-16:00</time></p>
+                        </div>
+                    </div>  
+                </div>  
+
+
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <div class=" message-parent "><img class="profile-avatar" src="/public/images/profileTeacher.jpg"></img>Andrew, I'll take a look at Evangelin's desk in the morning.<p><time class="message-time" datetime="2015-09-30-20:00" >Sept 30, 2015-16:21</time></p>   </div> 
+                    </div>                               
+                </div>  
+                <label for="messageReply">Reply</label><input type="text" placeholder="Reply message" ></input>
+                   <button type="button" data-toggle="tooltip" data-placement="top" title="Reply" class="btn btn-default fa fa-paper-plane"></button>
+                          
+
+            </div>
+
+                <div class="col-md-2 col-lg-4">
+
+                    <% include partials/content/studentstatus.ejs %>
+
+                </div><!-- div column right -->
+            </div><!-- div row-->
+        </div><!-- div container-->
+
+        <% include partials/template/footer.ejs %>
+        <% include partials/template/jsdefault.ejs %>
+    </body>
+
+
+</html>

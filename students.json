@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "name": "Liliana Belo",
+      "mention_name": "Liliana",
+      "email": "liliana@school.edu",
+      "title": "Student",
+      "photo_url": "https://www.hipchat.com/chris.png",
+      "status": "away",
+      "status_message": "gym, bbl",
+      "family": [
+        {
+          "user_id": 3,
+          "name": "Andrew Belo",
+          "mention_name": "Andrew",
+          "email": "andrew@work.com",
+          "title": "Father",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        },
+        {
+          "user_id": 4,
+          "name": "Kelly Belo",
+          "mention_name": "Kelly",
+          "email": "kelly@work.com",
+          "title": "Mother",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        }
+      ]
+    },
+    {
+      "user_id": 1,
+      "name": "Evangeline Belo",
+      "mention_name": "Evangeline",
+      "email": "evangeline@school.edu",
+      "title": "Student",
+      "photo_url": "https://www.hipchat.com/chris.png",
+      "status": "away",
+      "status_message": "gym, bbl",
+      "family": [
+        {
+          "user_id": 3,
+          "name": "Andrew Belo",
+          "mention_name": "Andrew",
+          "email": "andrew@work.com",
+          "title": "Father",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        },
+        {
+          "user_id": 4,
+          "name": "Kelly Belo",
+          "mention_name": "Kelly",
+          "email": "kelly@work.com",
+          "title": "Mother",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        }
+      ]
+    },
+    {
+      "user_id": 1,
+      "name": "Isla Corkum",
+      "mention_name": "Isla",
+      "email": "isla@school.edu",
+      "title": "Student",
+      "photo_url": "https://www.hipchat.com/chris.png",
+      "status": "away",
+      "status_message": "gym, bbl",
+      "family": [
+        {
+          "user_id": 3,
+          "name": "Fred Corkum",
+          "mention_name": "Fred",
+          "email": "fred@work.com",
+          "title": "Father",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        },
+        {
+          "user_id": 4,
+          "name": "Nicole Corkum",
+          "mention_name": "Nic",
+          "email": "nicole@work.com",
+          "title": "Mother",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        }
+      ]
+    },
+    {
+      "user_id": 1,
+      "name": "Harrison Corkum",
+      "mention_name": "Harrison",
+      "email": "harrison@school.edu",
+      "title": "Student",
+      "photo_url": "https://www.hipchat.com/chris.png",
+      "status": "away",
+      "status_message": "gym, bbl",
+      "family": [
+        {
+          "user_id": 3,
+          "name": "Fred Corkum",
+          "mention_name": "Fred",
+          "email": "fred@work.com",
+          "title": "Father",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        },
+        {
+          "user_id": 4,
+          "name": "Nicole Corkum",
+          "mention_name": "Nic",
+          "email": "nicole@work.com",
+          "title": "Mother",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        }
+      ]
+    },
+    {
+      "user_id": 1,
+      "name": "Erica Cardamore",
+      "mention_name": "Erica",
+      "email": "erica@school.edu",
+      "title": "Student",
+      "photo_url": "https://www.hipchat.com/chris.png",
+      "status": "away",
+      "status_message": "gym, bbl",
+      "family": [
+        {
+          "user_id": 3,
+          "name": "Dan Cardamore",
+          "mention_name": "Dan",
+          "email": "dan@work.com",
+          "title": "Father",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        },
+        {
+          "user_id": 4,
+          "name": "Heather Cardamore",
+          "mention_name": "Heather",
+          "email": "heather@home.com",
+          "title": "Mother",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        }
+      ]
+    },
+    {
+      "user_id": 1,
+      "name": "Myles Cardamore",
+      "mention_name": "Myles",
+      "email": "myles@school.edu",
+      "title": "Student",
+      "photo_url": "https://www.hipchat.com/chris.png",
+      "status": "away",
+      "status_message": "gym, bbl",
+      "family": [
+        {
+          "user_id": 3,
+          "name": "Dan Cardamore",
+          "mention_name": "Dan",
+          "email": "dan@work.com",
+          "title": "Father",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        },
+        {
+          "user_id": 4,
+          "name": "Heather Cardamore",
+          "mention_name": "Heather",
+          "email": "heather@home.com",
+          "title": "Mother",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        }
+      ]
+    },
+    {
+      "user_id": 1,
+      "name": "Luke Cardamore",
+      "mention_name": "Luke",
+      "email": "luke@school.edu",
+      "title": "Student",
+      "photo_url": "https://www.hipchat.com/chris.png",
+      "status": "away",
+      "status_message": "gym, bbl",
+      "family": [
+        {
+          "user_id": 3,
+          "name": "Dan Cardamore",
+          "mention_name": "Dan",
+          "email": "dan@work.com",
+          "title": "Father",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        },
+        {
+          "user_id": 4,
+          "name": "Heather Cardamore",
+          "mention_name": "Heather",
+          "email": "heather@home.com",
+          "title": "Mother",
+          "photo_url": "https://www.hipchat.com/chris.png",
+          "status": "away"
+        }
+      ]
+    }
+  ]
+}

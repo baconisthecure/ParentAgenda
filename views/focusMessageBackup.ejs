@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <% include partials/template/head.ejs %>        
+    </head>
+    
+    
+    <body>        
+        <% include partials/template/header.ejs %>      
+
+    
+    <div  class="content container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-lg-8">
+                <section>
+
+
+                    <button type="button" data-toggle="tooltip" data-placement="top" title="Reply" class="btn btn-default fa fa-mail-reply"></button><button  type="button" data-toggle="tooltip" data-placement="top" title="Reply All" class="btn btn-default fa fa-mail-reply-all"></button><button  type="button" data-toggle="tooltip" data-placement="top" title="Star"  class="btn btn-default fa fa-star-o"><button  type="button" data-toggle="tooltip" data-placement="top" title="Archive" class="btn btn-default fa fa-archive"></button>
+
+
+                      <div class="table-responsive">
+                            <table class="table">
+
+
+                                <tbody>
+                                    <tr class="message-subject">
+                                        <td><h3><i class="fa fa-circle"></i>From: Andrew Belo father of Evangeline Belo</h3></td>                           
+                                    <tr class="parent-message">
+                                        <td class="pull-right">Missing mitt. <p></p><time class="" datetime="2015-09-30" >Sept 30, 2015</time></p></td>
+                                    </tr>                                    
+                                    <tr class="">
+                                       <td class="pull-right">Hello Tori, I was wondering if you may have found Evangeline's mitten in the class room.   She didn't have it in her backpack this evening when I picked her up.   </td> 
+                                    </tr>                               
+                                </tbody>
+                                </table>
+                        </div>
+                    </section>
+
+            </div>
+            <div class="col-md-2 col-lg-4">
+
+
+                    <% include partials/content/studentstatus.ejs %>
+
+            </div><!-- div column right -->
+        </div><!-- div row-->
+    </div><!-- div container-->
+        <% include partials/template/footer.ejs %>
+        <% include partials/template/jsdefault.ejs %>
+    </body>
+t src="/js/script.js"></script>
+    </body>
+
+</html>

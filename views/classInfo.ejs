@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <% include partials/template/head.ejs %>        
+    </head>
+    
+    
+    <body>        
+        <% include partials/template/header.ejs %>
+    
+     
+
+        <div class="container">
+        
+                    <div class="jumbotron">
+              
+                <h1>Tori's First Grade Class</h1>
+                Welcome to your class.   This is the class information page where you can go to find information about your class such as..... 
+               
+            </div>
+        </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-lg-8">
+
+
+                <section>
+                    <h2>Status Update </h2>
+                    <label>Update parents on class status </label><input type="text" id="statusUpdate" ></input>                     <button><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
+                         <button>Post</span></button>
+
+
+                    <p>Status updates are a way to provide quick feedback to all parents of the class.  Some examples are:</p>
+
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Examples</h3>
+                      </div>
+                        <ul>
+                          <li>
+                            Practicing math problems - times tables.
+                          </li>
+                            <li>
+                            Circle time - Ask about our new song.
+                          </li>
+                        </ul>          
+                    </div>
+                </section>
+                <section>
+                    <h2>Class Team</h2>
+                    <div class="panel panel-default">                  
+                         <label>Principle</label><button class="btn btn-default">Message</button><button class="btn btn-default"></button>
+                        <p>Other Teachers, Aids, Principle</p><p>Link to school Blog/Communication</p>
+                    </div>
+
+                </section>
+
+                </div>
+                <div class="col-md-2 col-lg-4">
+
+
+                    <% include partials/content/studentstatus.ejs %>
+
+                </div><!-- div column right -->
+        
+            </div>
+        </div>
+        <% include partials/template/footer.ejs %>
+        <% include partials/template/jsdefault.ejs %>
+    </body>
+
+</html>

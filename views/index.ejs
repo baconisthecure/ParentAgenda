@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+    <head>        
+        <% include partials/template/head.ejs %>
+    </head>
+    
+    
+    <body>        
+        
+        <% include partials/template/header.ejs %>
+
+   
+        <div class=" container">
+           <div class="jumbotron">
+              
+                <h1>Tori's First Grade Class</h1>
+                Welcome to your class.   This is the class information page where you can go to find information about your class such as..... 
+               
+            </div><!-- div jumbotron-->
+            
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-lg-8">
+            
+                    <section>
+                        <h2>First time class setup <span class="label label-primary">new</span></h2>
+                        <p class="lead">Lets set up your class with a few simple steps</p>
+                        <p>Salami brisket beef tail, meatloaf filet mignon alcatra shank corned beef tongue strip steak. Short loin brisket tri-tip, venison bresaola drumstick sausage tail leberkas shank spare ribs. Kevin pork chop corned beef, turkey pork meatloaf ham prosciutto frankfurter sirloin spare ribs.</p>
+                        <section>
+                            <h3>Load class list</h3>
+                            
+                            <ul class="nav nav-tabs">
+                                  <li role="presentation" class="active"><a href="#">Import File</a></li>
+                                  <li role="presentation"><a href="#">Enter Names</a></li>
+                                  <li role="presentation"><a href="#">Scan Document</a></li>
+                            </ul>
+
+                            <p>Bacon ipsum dolor amet bacon beef shoulder alcatra pork loin andouille t-bone frankfurter. Shankle venison ball tip ham hock bresaola. Leberkas meatball pork chop ham hock salami biltong shank tenderloin kevin shoulder pork belly shankle. Jowl fatback beef ribs t-bone alcatra beef. </p>
+                        </section>
+                        <section>
+                            <h3>Set Schedule</h3>
+                            <form>
+                                <p>First Day of School:
+                                <input type="date" name="schoolStart" ></p>
+                                <p></p>Last Day of School:
+                                <input type="date" name="schoolStart" ></p>
+                            </form> 
+                        </section>
+                    </section>
+
+                </div><!-- div column main-->
+                <div class="col-md-2 col-lg-4">
+
+
+                    <% include partials/content/studentstatus.ejs %>
+
+                </div><!-- div column right -->
+               
+            </div><!-- div row-->
+        </div><!-- div container-->
+
+        <% include partials/template/footer.ejs %>
+        <% include partials/template/jsdefault.ejs %>
+    </body>
+
+
+</html>
